@@ -1,0 +1,99 @@
+@import '~bootstrap/scss/bootstrap';
+@import 'variables';
+
+@import 'uikit';
+@import 'cookiebar';
+@import 'fancybox-3.1';
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans&family=Raleway&family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Keep in last
+$color-brand:#e52d27;
+$color-link: #04151f;
+$color-heading: #3d1d1c;
+$color-green: #4cb963;
+$color-link-hover: #5a6a80;
+$font-brand: 'Spartan', sans-serif;
+$font-main: 'Poppins', 'Assistant', Arial, Helvetica, sans-serif;
+
+@import 'common';
+@import 'reset';
+
+.brand-name {
+    font-size: 1.2rem;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    vertical-align: middle;
+    padding: 0.75rem 0.5rem 0.5rem 0.5rem;
+    font-family: $font-brand;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: white;
+    background: $color-brand;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b31217, $color-brand);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b31217, $color-brand); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.brand-name:hover {
+    color: white;
+    text-decoration: none;
+    background: -webkit-linear-gradient(to right, $color-brand, #b31217);
+    background: linear-gradient(to right, $color-brand, #b31217);
+}
+
+.gradient {
+    font-weight: 500 !important;
+    background-image: linear-gradient(to right, rgb(161, 1, 148), rgb(255, 126, 5));
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.br-50 {
+    border-radius: 50px;
+}
+
+.card {
+    box-shadow: 0px 0px 5px #bbccee;
+}
+
+.form-title {
+    color: $color-heading;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.form-text {
+    font-size: 0.8rem !important;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+}
+
+.bg-secondary-dark {
+    background-color: #5a6268;
+}
+
+.bw-0 {
+    border-width: 0px;
+}
+
+.tt-c {
+    text-transform: capitalize;
+}
+
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.fs-m {
+    font-size: medium;
+}

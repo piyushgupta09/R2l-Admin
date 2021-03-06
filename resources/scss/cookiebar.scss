@@ -1,0 +1,35 @@
+#cookie-law-banner {
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 10px 10px;
+    background-color: #F4F4F4;
+    color: #777777;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+#cookie-policy-link {
+    text-decoration: underline;
+    color: #777777;
+}
+
+#cookie-policy-link:hover {
+    text-decoration: none;
+}
+
+#cookie-accept-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #CCCCCC;
+    color:#FFFFFF;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+#cookie-accept-button:hover {
+    background-color: #999999;
+}
