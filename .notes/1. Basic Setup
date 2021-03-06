@@ -1,0 +1,33 @@
+1. Create new laravel project
+    $ laravel new admin
+
+2. Create new repository on github via cli
+    $ gh repo create
+        ? Repository name R2l-Admin
+        ? Repository description Saas website
+        ? Visibility Public
+        ? This will add remote origin to your current directory. Continue?  Yes
+        ✓ Created repository piyushgupta09/R2l-Admin on GitHub
+        ✓ Added remote https://github.com/piyushgupta09/R2l-Admin.git
+
+3. Initialise git repository
+    $ cd admin
+    $ git init
+    $ git add .
+    $ git commit -m "Laravel Installed"
+    $ git push --set-upstream origin master
+        Enumerating objects: 108, done.
+        Counting objects: 100% (108/108), done.
+        Delta compression using up to 4 threads
+        Compressing objects: 100% (89/89), done.
+        Writing objects: 100% (108/108), 68.49 KiB | 1.29 MiB/s, done.
+        Total 108 (delta 6), reused 0 (delta 0), pack-reused 0
+        remote: Resolving deltas: 100% (6/6), done.
+        To https://github.com/piyushgupta09/R2l-Admin.git
+        * [new branch]      master -> master
+        Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+4. Create a new app on digital ocean platform
+    - Choose github repository from list
+    - Enter environment variables
+    - Build command
